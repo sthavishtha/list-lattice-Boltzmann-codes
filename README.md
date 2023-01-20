@@ -31,6 +31,7 @@ A curated list of some open source frameworks, libraries and softwares employing
 * [SunlightLB](https://sourceforge.net/projects/sunlightlb/files/) - a 3D numerical framework written in C, perl, and python which can simulate a variety of <ins>hydrodynamics problems, such as flow through pores, moving obstacles using a bounce-back method, passive scalar transport</ins> and a few more. 
 * [Taxila LBM](https://github.com/ecoon/Taxila-LBM) [[25](#TaxilaLBM_1), [26](#TaxilaLBM_2)] - a parallel numerical framework written in Fortran90 which can simulate flows in </ins>porous and geometrically complex media</ins> (including single and multiphase flows). Developed by the [Los Alamos National laboratory](https://www.lanl.gov/). 
 * [TCLB](https://github.com/CFD-GO/TCLB) - a parallel numerical solver (MPI+CUDA or MPI+CPU) for simulating <ins>electrokinetic flows, thermal flows, multiphase flows, non-Newtonian flows</ins> and <ins>shallow water flows</ins>. Developed at the [C-CFD group](https://c-cfd.meil.pw.edu.pl/), [Warsaw University of Technology](https://pw.edu.pl/). 
+* [VirtualFluids](https://git.rz.tu-bs.de/irmb/virtualfluids) - a parallel numerical framework supporting CPU and GPU, for simulating <ins>tubulent, thermal, multiphase/multicomponent flow and fluid-structure interaction</ins>. Developed at the [Institute for Computational Modeling in Civil  Engineering](https://www.tu-braunschweig.de/irmb) (IRMB), [TU Braunschweig](https://www.tu-braunschweig.de/en/).
 * [waLBerla](https://www.walberla.net/) [[27](#waLBerla)] - a parallelized (both MPI and hybrid MPI/OpenMP are supported) numerical framework written in C++ supporting <ins>block-structured adaptive mesh refinement, fully resolved particulate flows</ins> and <ins>free surface flows</ins> to name a few. Developed by the [Chair for System Simulation](https://www.cs10.tf.fau.de/), [Friedrich–Alexander–Universität Erlangen–Nürnberg](https://www.fau.eu/).
 * [wlb](https://github.com/weierstrass/wlb) [[28](#wlb)] - a github repository hosting C++ codes to simulate <ins>2D electrokinetic flows</ins>, by coupling Navier-Stokes, Nernst-Planck and Poisson’s equation of electrostatics. 
 * [2d-lbm-dem](https://github.com/cb-geo/2d-lbm-dem) - a 2D coupled lattice Boltzmann and discrete element method written in C for simulating <ins>granular flows</ins>. Developed by the [Computational Geomechanics group](https://www.cb-geo.com/research/lbm/#main-features), a co-operation between two research groups at the [University of Cambridge](https://www.cam.ac.uk/) and [University of California, Berkeley](https://www.berkeley.edu/). 
@@ -39,17 +40,18 @@ A curated list of some open source frameworks, libraries and softwares employing
 ## Miscellaneous codes
 
 * [EduLB](http://sourceforge.net/projects/edulb/) - an educational C++ code to show the implementation of lattice Boltzmann method by simulating flow over an obstacle in a channel. 
+* [gLBM](https://gitlab.kitware.com/LBM/lattice-boltzmann-solver) [[29](#glbm)] - a 3D LBM code implemented using GPUs. 
 * [LAMBReX](https://github.com/otbrown/LAMBReX) - implementation of a lattice Boltzmann code on top of [AMReX](https://github.com/AMReX-Codes/amrex) library for adaptive mesh refinements. 
 * [LatBo.jl](https://github.com/UCL/LatBo.jl) - an code developed in Julia programming language. 
 * [Lattice-Boltzmann](https://github.com/longmakesstuff/Lattice-Boltzmann) - CUDA implementations of some lattice Boltzmann codes. 
 * [Lattice-Boltzmann-fluid-flow-in-Tensorflow](https://github.com/loliverhennigh/Lattice-Boltzmann-fluid-flow-in-Tensorflow) - a github repository hosting lattice Boltzmann simulation results written in Tensorflow. 
 * [LatticeBoltzmannMethod](https://github.com/shurikkuzmin/LatticeBoltzmannMethod) - a github repository hosting some excellent codes (C++) showcasing multiphase flows, microflows and immersed boundary-lattice Boltzmann methods to name a few. 
 * [LBMCode](https://www.researchgate.net/publication/299367818_Lattice-Boltzmann_code_for_flow_simulation_in_a_simple_straight_channel) - a FORTRAN90 code solving the shallow water equations to simulate flows in a straight channel. 
-* [LBM-Cplusplus-A.A.Mohamad](https://github.com/zmhhaha/LBM-Cplusplus-A.A.Mohamad) - this repository hosts the C++ version of codes implemented from the Appendix of a lattice Boltzmann book [[29](#lbmbook1)].
+* [LBM-Cplusplus-A.A.Mohamad](https://github.com/zmhhaha/LBM-Cplusplus-A.A.Mohamad) - this repository hosts the C++ version of codes implemented from the Appendix of a lattice Boltzmann book [[30](#lbmbook1)].
 * [LBM-1D](https://github.com/sthavishtha/LBM-1D) - a github repository hosting some simple MATLAB codes to simulate 1D advection-diffusion and Navier-Stokes equations. 
 * [lbmles](https://github.com/jabhiji/lbmles) - a github repository hosting a 2D lattice Boltzmann code using Large Eddy simulations to solve fluid flow in lid-driven cavity at very large Reynolds numbers. Both CPU and GPU (C++ and CUDA) versions are available. 
 * [lbm_matlab](https://github.com/rlee32/lbm_matlab) - a github repository hosting some MATLAB codes showcasing grid refinement, viscosity counteraction approach (for achieving numerical stability), RANS Spalart-Allmaras turbulence model and a few more.
-* [lbm-principles-practice](https://github.com/lbm-principles-practice/code) - a github repository hosting the codes (C++, MATLAB) used in the lattice Boltzmann book [[30](#lbmbook2)]. 
+* [lbm-principles-practice](https://github.com/lbm-principles-practice/code) - a github repository hosting the codes (C++, MATLAB) used in the lattice Boltzmann book [[31](#lbmbook2)]. 
 * [listLBM](https://github.com/sorush-khajepor/listLBM) - an object-oriented programming solver for simulations of multiphase flows in porous media.
 * [pylbm](https://github.com/pylbm/pylbm) - an open source python framework for performing lattice Boltzmann simulations in 1D, 2D and 3D scenarios.  
 * [3D-LBM-AMR](https://github.com/blackoffee/3D-LBM-AMR) - a github repository hosting C++ codes showcasing adaptive mesh refinement in 3D problems. 
@@ -113,9 +115,18 @@ A curated list of some open source frameworks, libraries and softwares employing
 
 1. <a name="wlb"></a> Bülling, A., _Modelling of electrokinetic flow using the lattice-Boltzmann method_, Master thesis, Chalmers University of Science and Technology, 2012. [Link](http://publications.lib.chalmers.se/records/fulltext/170015/170015.pdf)
 
+1. <a name="glbm"></a> Bray, A. et al., _gLBM: A GPU enabled Lattice Boltzmann Method Library_, Journal of Open Source Software, Vol. 7 (70), 2555, 2022. [Link](https://doi.org/10.21105/joss.02555)
+
 1. <a name="lbmbook1"></a> Mohamad, A. A., _Lattice Boltzmann Method: Fundamentals and Engineering Applications with Computer Codes_, Springer International Publishing, ISBN 978-0-85729-455-5, 2019. [Link](https://www.springer.com/gp/book/9781447174226)
 
 1. <a name="lbmbook2"></a> Krüger, T. et al., _The Lattice Boltzmann Method: Principles and Practice_, Springer International Publishing, ISBN 978-3-319-44647-9, 2017. [Link](https://www.springer.com/gp/book/9783319446479)
 
 
+---------------
+## Credits
 
+Thanks to the following people for their suggestions:
+
+1. Sebastian Geller - VirtualFluids
+
+1. Andinet Enquobahrie - gLBM
